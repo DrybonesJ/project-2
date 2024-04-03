@@ -1,0 +1,1 @@
+No Photos to upload yet since we're not sure exactly how to implement this yet. This will be done in later parts of the design.
