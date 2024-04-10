@@ -1,0 +1,83 @@
+:root {
+    --blue: #1D428A;
+    --red: #C8102E;
+    --white: #fff;
+    
+    --nav-height: 80px;
+    --footer-height: 40px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 100vw;
+    height: var(--nav-height);
+}
+
+.company-name {
+    color: var(--white);
+    text-decoration: underline overline;
+    font-family: "Anta", sans-serif;
+    margin-left: 10px;
+}
+
+nav {
+    height: var(--nav-height);
+}
+
+nav ul {
+    display: flex;
+    height: 100%;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: var(--white);
+    display: flex;
+    padding-top: 30px;
+}
+
+nav ul a:hover {
+    background-color: var(--red);
+}
+
+nav ul a li {
+    list-style-type: none;
+    height: var(--nav-height);
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 100vw;
+    height: var(--footer-height);
+}
+
+footer > p {
+    font-size: 12px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media > i {
+    margin: 5px;
+}
