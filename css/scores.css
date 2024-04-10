@@ -1,0 +1,24 @@
+:root {
+    --blue: #1D428A;
+    --red: #C8102E;
+    --white: #fff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 7fr 6fr;
+    grid-gap: 10px;
+    max-width: 1000px;
+    background-color: var(--red);
+    margin: auto;
+    padding: 20px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 3fr repeat(5, 1fr);
+    grid-template-rows: 3fr;
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+}
