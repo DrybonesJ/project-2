@@ -74,10 +74,6 @@ footer > p {
     font-size: 12px;
 }
 
-.social-media {
-    display: flex;
-}
-
 .social-media > i {
     margin: 5px;
 }
