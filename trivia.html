@@ -12,6 +12,8 @@
         href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/07ed27e82e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/trivia.css">
+    <script src="./javascript/trivia.js"></script>
 </head>
 
 <body>
@@ -25,13 +27,99 @@
                 <a href="./scores.html">
                     <li>Scores</li>
                 </a>
-                <a href="#"  class="current-page">
+                <a href="#" class="current-page">
                     <li>Trivia</li>
                 </a>
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Trivia for the True Basketball Fan</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+
+
+        <div class="container">
+            <h1>Trivia for the True Basketball Fan</h1>
+            <form id="trivia-form">
+                <div class="question">
+                    <label for="q1">Who is the all-time leader in scoring in NBA history?</label>
+                    <input type="text" id="q1" name="q1">
+                    <span class="correct-answer hidden">Correct Answer: LeBron James</span>
+                    <button type="button" class="hint-btn" data-team="Cavaliers">Get Hint</button>
+                </div>
+                <!-- Add similar divs for questions 2 to 10 -->
+                <div class="question">
+                    <label for="q2">Who Holds the all time rebounding record in the NBA?</label>
+                    <input type="text" id="q2" name="q2">
+                    <span class="correct-answer hidden">Correct Answer: Kareem Abdul-Jabbar</span>
+                    <button type="button" class="hint-btn" data-team="Lakers">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q3">Who holds the record for All time career assist?</label>
+                    <input type="text" id="q3" name="q3">
+                    <span class="correct-answer hidden">Correct Answer: John Stockton</span>
+                    <button type="button" class="hint-btn" data-team="Jazz">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q4">Who holds the record for All time career steals?</label>
+                    <input type="text" id="q4" name="q4">
+                    <span class="correct-answer hidden">Correct Answer: John Stockton</span>
+                    <button type="button" class="hint-btn" data-team="Jazz">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q5">Who holds the record for all time career blocks?</label>
+                    <input type="text" id="q5" name="q5">
+                    <span class="correct-answer hidden">Correct Answer: Hakeem Olajuwon</span>
+                    <button type="button" class="hint-btn" data-team="Rockets">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q6">Who was the youngest MVP in NBA history?</label>
+                    <input type="text" id="q6" name="q6">
+                    <span class="correct-answer hidden">Correct Answer: Derrick Rose</span>
+                    <button type="button" class="hint-btn" data-team="Bulls">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q7">Who scored 100 points in a game?</label>
+                    <input type="text" id="q7" name="q7">
+                    <span class="correct-answer hidden">Correct Answer: Wilt Chamberlain</span>
+                    <button type="button" class="hint-btn" data-team="Warriors">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q8">Who holds the record for most career 3 pointers?</label>
+                    <input type="text" id="q8" name="q8">
+                    <span class="correct-answer hidden">Correct Answer: Ray Allen</span>
+                    <button type="button" class="hint-btn" data-team="Celtics">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q9">Who holds the highest career scoring average?</label>
+                    <input type="text" id="q9" name="q9">
+                    <span class="correct-answer hidden">Correct Answer: Michael Jordan</span>
+                    <button type="button" class="hint-btn" data-team="Bulls">Get Hint</button>
+                </div>
+                <div class="question">
+                    <label for="q10">Who is the NBA logo?</label>
+                    <input type="text" id="q10" name="q10">
+                    <span class="correct-answer hidden">Correct Answer: Jerry West</span>
+                    <button type="button" class="hint-btn" data-team="Lakers">Get Hint</button>
+                </div>
+                <button type="button" id="submit-btn">Submit</button>
+                <button type="button" id="retry-btn" style="display:">Retry</button>
+            </form>
+        </div>
+
+
+
+        <script src="./javascript/trivia.js"></script>
+
+    </main>
     <footer>
         <p>© Copyright 2024 - Unfreddetable Sports</p>
         <h3 class="company-name">UnFreddetable Sports</h3>
