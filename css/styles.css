@@ -4,7 +4,8 @@
     --white: #fff;
     
     --nav-height: 80px;
-    --footer-height: 40px;
+    --footer-height: auto;
+    --footer-padding: 1em;
 }
 
 * {
@@ -18,8 +19,13 @@ header {
     align-items: center;
     background-color: var(--blue);
     color: var(--white);
-    width: 100vw;
+    width: 100%;
     height: var(--nav-height);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .company-name {
@@ -53,7 +59,7 @@ nav ul a li {
     list-style-type: none;
     height: var(--nav-height);
     font-size: 20px;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 
 .current-page {
@@ -62,12 +68,19 @@ nav ul a li {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--blue);
     color: var(--white);
-    width: 100vw;
+    width: 100%;
     height: var(--footer-height);
+    margin: 1em 0 0 0;
+    padding: var(--footer-padding);
+    bottom: 0;
+}
+.footer-copyright, .footer-content {
+    text-align: center;
 }
 
 footer > p {
