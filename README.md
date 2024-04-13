@@ -1,261 +1,160 @@
-## WELCOMETOPROJECT 2
+**WELCOME TO PROJECT 2**
 
-Thisisaguidedprojectthatwillcoverthemajorconceptsandtopicsthat
-havebeenincludedthroughouttheentiretyofthecourse.
+This is a guided project that will cover the major concepts and topics that have been included throughout the entirety of the course.
 
-Thisprojectisdesignedtobecompletedingroupsof2-3,butyoumay
-choosetocompletethisasanindividual.Notonlywillcompletingthe
-projectasagroupdivideuptheworkintomoremanageablepiecesandwill
-provideavaluableworkplace-likedevelopmentexperience,doingthe
-projectasanindividualwillautomaticallyincura4.5%penaltytothe
-requiredtasksportionofyourprojectgrade.
+This project is designed to be completed in groups of 2-3, but you may choose to complete this as an individual. Not only will completing the project as a group divide up the work into more manageable pieces and will provide a valuable workplace-like development experience, doing the project as an individual will automatically incur a 4.5% penalty to the required tasks portion of your project grade.
 
-Iwantthisprojecttobeamemorablelandmarkinyourcodingexperience.
-Feelfreetoreachoutwithotherideasthatyoumayhavetouseforthis
-projectandI’dbehappytotakethemintoaccount.
+I want this project to be a memorable landmark in your coding experience. Feel free to reach out with other ideas that you may have to use for this project and I’d be happy to take them into account.
 
-### ProjectDescription
+**Project Description**
 
-Youwillbecreatingacustomerfacingwebsiteforthecompanyofyour
-choice.Youcanchoosebetweenoneofthesethree“completelyreal”
-companies:
+You will be creating a customer facing website for the company of your choice. You can choose between one of these three “completely real” companies:
 
-1. MovieNationalCollective
-2. Sports‘nStuff
-3. FourtheMusic-Heads
+1. Movie National Collective
+1. Sports ‘n Stuff
+1. Four the Music-Heads
 
-Adescriptionofeachofthesecompaniescanbefoundbelow.
-1.MovieNationalCollective:
-_History_ :Foundedbyagroupofcinephileswhobandedtogetherto
-createahavenformovieenthusiasts,MovieNationalCollectivestartedasa
-humblemovieclubinabasement,butquicklygrewintoathriving
-communityoffilmlovers.
-_Background_ :Withapassionforallthingscinema,MovieNational
-Collectiveaimstobringpeopletogethertocelebratetheartoffilmmaking,
-fromclassicmasterpiecestothelatestblockbusters,throughscreenings,
-discussions,andevents.
-_MissionStatement_ :Ourmissionistocultivateavibrantandinclusive
-communitywheremoviebuffscanconnect,sharetheirloveforfilm,and
-exploretheboundlessmagicofthesilverscreen.
+A description of each of these companies can be found below.
 
+1. Movie National Collective:
 
-2.Sports‘nStuff:
-_History_ :Bornoutofaloveforbothcompetitionandcamaraderie,
-Sports‘nStuffwasfoundedbyagroupoffriendswhowantedtocreatea
-one-stopshopforsportsenthusiaststogeekoutoverstatsandcelebrate
-theirfavoriteteams.
-_Background_ :Whetheryou'readie-hardfanoracasualobserver,
-Sports‘nStuffisyourultimatedestinationforallthingssports-related,
-offeringup-to-datescores,news,andtriviatofuelyourpassionforthegame.
-_MissionStatement_ :Ourmissionistofosterasenseofcommunityand
-excitementamongsportsfansofeverystripe,providingaplatformwhere
-everyonecancometogethertocheer,debate,andrevelinthethrillof
-victory.
+*History*: Founded by a group of cinephiles who banded together to create a haven for movie enthusiasts, Movie National Collective started as a humble movie club in a basement, but quickly grew into a thriving community of film lovers.
 
-3.FourtheMusic-Heads:
-_History_ :Conceivedbyagroupofmusicaficionadoswithapenchant
-forpuns,FourtheMusic-Headsbeganasasmallrecordstorewithbig
-dreamsofspreadingthejoyofmusictothemasses.
-_Background_ :Fromvinyltodigital,FourtheMusic-Headsisdedicated
-tocelebratingthediverseandever-evolvingworldofmusic,offeringcurated
-playlists,artistspotlights,andconcertrecommendationsformusicloversof
-alltastes.
-_MissionStatement_ :Ourmissionistoinspirealifelongloveaffairwith
-music,fosteringdiscovery,connection,andadeepappreciationforthe
-transformativepowerofsound.
+*Background*: With a passion for all things cinema, Movie National Collective aims to bring people together to celebrate the art of filmmaking, from classic masterpieces to the latest blockbusters, through screenings, discussions, and events.
 
-Foranycompanythatyouchoose,youshouldcreateamulti-pagecompany
-website.Forexample,themainpagemaybetitled“Home”withotherpages
-“News”and“Products”withsupplementaryinformationaboutthosepage
-topics.Youmaydecidehowmanypagesandwhatthecontentofthepages
-are,butyourprojectmustincludeatleasttwofullpages.Onesmartstrategy
-maybetosplituptheworkbetweenyourteammembersbypage.Some
-pageswillrequiremoreworkanddetailthanothers,sotrytosplitthework
-betweenteammatesevenly,regardlessofsetpageassignments.
+*Mission Statement*: Our mission is to cultivate a vibrant and inclusive community where movie buffs can connect, share their love for film, and explore the boundless magic of the silver screen.
 
-**_Note:_** youmaychoosetodoyourwebsiteonanothertopicbutyouarestill
-subjecttotherequirements.Meaning,ifyouchoosetobuildawebsitefor
-another“company”,youwillberequiredtofindandimplementanadequate
+2. Sports ‘n Stuff:
 
+*History*: Born out of a love for both competition and camaraderie, Sports ‘n Stuff was founded by a group of friends who wanted to create a one-stop shop for sports enthusiasts to geek out over stats and celebrate their favorite teams.
 
-APItogatherinformationonthatcompany'srelativetopic.Youmay _not_ use
-theWeatherDataAPIfromtheIn-ClassActivity.
+*Background*: Whether you're a die-hard fan or a casual observer, Sports ‘n Stuff is your ultimate destination for all things sports-related, offering up-to-date scores, news, and trivia to fuel your passion for the game.
 
-### APIInformation
+*Mission Statement*: Our mission is to foster a sense of community and excitement among sports fans of every stripe, providing a platform where everyone can come together to cheer, debate, and revel in the thrill of victory.
 
-Aspartoftheinformationcollectivesigninggroupthatthethreecompanies
-MovieNationalCollective,Sports‘nStuff,FourtheMusic-Headsare
-contractedwith,muchofthelivedatathatthesecompaniesareretrieving
-comefromopenAPIs.Thedatawarehousingfirm, _KearlInformantsInc._ ,has
-allowedtheuseofthreepublicAPIsforthedevelopmentofthisproject.Your
-jobasadeveloperwillbetoretrieve
+3. Four the Music-Heads:
 
-YoushouldonlyretrievedatafromthecategoricalassociatedAPImodel
-(KearlInformantsInc.isstrappedforcashandiscurrentlyrunningfree-tier
-models,let’snotoverchargethem,haha),i.e.thesportsAPIisforSports’n
-Stuff,andsoon.Documentsthatoutlinethedatastructurethatwillreturn
-fromtheAPIscanbefoundhere:
+*History*: Conceived by a group of music aficionados with a penchant for puns, Four the Music-Heads began as a small record store with big dreams of spreading the joy of music to the masses.
 
-```
-SportsAPI MoviesAPI MusicAPI
-```
-### Grading
+*Background*: From vinyl to digital, Four the Music-Heads is dedicated to celebrating the diverse and ever-evolving world of music, offering curated playlists, artist spotlights, and concert recommendations for music lovers of all tastes.
 
-Thegradingoftheprojectwillbedividedinto 3 distinctions,requiredtasks,
-optionalelements,andadditionalfeatures.Therequiredtaskswillaccount
-for45%,optionalelementswillmakeup30%,andadditionalfeatureswill
-fulfilltheremaining25%ofyourtotalgrade.SimilarlytoProject1,therecan
-beupto5%allotmentbetweengradingdistinctions,meaning,yourtotal
-pointsearnedtomakeupforothercategoricaldeficienciescanbeupto5%.
-Forexample,ifyouonlyreceive43%ontherequiredtasksand27%onthe
-additionalfeatures,youmaytack-onmoreadditionalfeatures(upto30%)to
-geta100%ontheprojectin-total.
+*Mission Statement*: Our mission is to inspire a lifelong love affair with music, fostering discovery, connection, and a deep appreciation for the transformative power of sound.
 
-Theprojectwillbe“graded”toatotalof 1000 pointstobetterallotweightto
-tasksinspecificgradingdistinctions,butwillbescaledto 100 pointsin
-LearningSuite.
+For any company that you choose, you should create a multi-page company website. For example, the main page may be titled “Home” with other pages “News” and “Products” with supplementary information about those page topics. You may decide how many pages and what the content of the pages are, but your project must include at least two full pages. One smart strategy may be to split up the work between your team members by page. Some pages will require more work and detail than others, so try to split the work between teammates evenly, regardless of set page assignments.
 
-Followingyourcompletionoftheproject,thegroupshouldfillouttheform
-atthebottomofthisdocumentthatdetailstheirdivisionofworkandpoints.
-ThePDFshouldbename“ _Group#-GroupName.pdf”_ andsubmittedtothe
+***Note:*** you may choose to do your website on another topic but you are still subject to the requirements. Meaning, if you choose to build a website for another “company”, you will be required to find and implement an adequate API to gather information on that company's relative topic. You may *not* use the Weather Data API from the In-Class Activity.
 
+**API Information**
 
-appropriateProject 2 assignmentonLearningSuite.Onlyonesubmissionis
-requiredpergroup.
+As part of the information collective signing group that the three companies Movie National Collective, Sports ‘n Stuff, Four the Music-Heads are contracted with, much of the live data that these companies are retrieving come from open APIs. The data warehousing firm, *Kearl Informants Inc.*, has allowed the use of three public APIs for the development of this project. Your job as a developer will be to retrieve
 
-Inadditiontotheprojectsubmission,eachstudentisrequiredtofilloutthe
-PeerReviewsurvey.Thissurveywilltaketheexperiencesandopinions
+You should only retrieve data from the categorical associated API model (Kearl Informants Inc. is strapped for cash and is currently running free-tier models, let’s not overcharge them, haha), i.e. the sports API is for Sports ’n Stuff, and so on. Documents that outline the data structure that will return from the APIs can be found here:
 
-### RequiredTasks(45%,450ptstotal)
+[Sports API](https://byu.box.com/s/344bwm6cn3jb91jobkktc7cwld14yquh) [Movies API](https://byu.box.com/s/foc1zgnyw0yxs9s5tnaio7mbtsjkym9f) M[usic API](https://byu.box.com/s/tor7iuvz1lalb7mur7iyke7unomye6sv)
 
-**[100pts]** Yourwebsiteshowcasesabrandidentityanduniformity.Thiscan
-bedisplayedthroughacolorscheme,icons,fontfamiliesandstyling,and
-implementationofDesignPrinciples.
-**[100pts]** MuchofthecontentofthesiteisgeneratedviatheassociatedAPI
-foryourgroup'stopic.
-**[75pts]** Fullyresponsivelayout,usinganyresponsivetechniqueyouplease.
-**[75pts]** Yourcontributiontoyourgroup.(ifdoingtheprojectasanindividual
-youautomaticallyreceive40%(30pts)onthistask)
-**[50pts]** YourprojectshouldbebuiltonasharedGitHubrepositorywithat
-leastthreebranchesandtwomergedPullRequests.
-**[50pts]** AtleastthreeCSSanimations(translate,rotate,opacity,scale,color,
-etc.).
+**Grading**
 
-### OptionalElements(30%,300ptstotal)
+The grading of the project will be divided into 3 distinctions, required tasks, optional elements, and additional features. The required tasks will account for 45%, optional elements will make up 30%, and additional features will fulfill the remaining 25% of your total grade. Similarly to Project 1, there can be up to 5% allotment between grading distinctions, meaning, your total points earned to make up for other categorical deficiencies can be up to 5%. For example, if you only receive 43% on the required tasks and 27% on the additional features, you may tack-on more additional features (up to 30%) to get a 100% on the project in-total.
 
-**[75pts]** AworkingHTMLformwithatleast 5 **<input>** .Youmaydecidehowto
-displayorinterprettheenteredinformation
-**[50pts]** Haveatable(orrepeatingCSSGridelements)thatretrievesdifferent
-datafromtheAPIbasedonfactorsorinputsfromtheuser.
-**[50pts]** Meetstandardizedaccessibilityrequirements,includingfontsize,
-fontfamilies,colors.
-**[30pts/each]** Videobackgroundsomewhereonthesite(max.2)
-**[30pts]** IncludeaCSSGrid,ofatleast2x3complexityormore.
-**[30pts]** IncludeaworkingModalontheWebsite.
-**[30pts]** Havetogglablecolorthemes.
-**[25pts]** ImplementtheCSSframework **Bootstrap** tostyleyourwebsite(must
-bethemajorityofyourstyling)
-**[15pts]** PublishyourwebsiteonGitHubPages.
-**[5pts]** Includeafavicon
-**[3pts/each]** Useofimages(max.20).
+The project will be “graded” to a total of 1000 points to better allot weight to tasks in specific grading distinctions, but will be scaled to 100 points in Learning Suite.
 
-### AdditionalFeatures(25%,250ptstotal)
+Following your completion of the project, the group should fill out the form at the bottom of this document that details their division of work and points. The PDF should be name “*Group#-GroupName.pdf”*and submitted to the appropriate Project 2 assignment on Learning Suite. Only one submission is required per group.
 
+In addition to the project submission, each student is required to fill out the Peer Review survey. This survey will take the experiences and opinions
 
-Alladditionalfeaturesshouldbechosenasateamandreflectaconcurrent
-amountofworkthatissimilartothescoringofthepointvaluesinthe
-**optionalelements** category.Youshoulddocumenteachadditionalfeature
-thatyourteamincludesinthefinalpagesubmissionPDFwithclear
-evidenceoftheworkcompleted,suggestedpointsallotted,anddescription
-ofwhatwasdone.
+**Required Tasks (45%, 450pts total)**
 
-SomefeaturesthatI’vethoughtof,thatfullandcoherentintegrationwould
-beequaltofull 250 pointswouldbe:
+**[100pts]** Your website showcases a brand identity and uniformity. This can be displayed through a color scheme, icons, font families and styling, and implementation of Design Principles.
+
+**[100pts]** Much of the content of the site is generated via the associated API for your group's topic.
+
+**[75pts]** Fully responsive layout, using any responsive technique you please. **[75pts]** Your contribution to your group. (if doing the project as an individual you automatically receive 40% (30pts) on this task)
+
+**[50pts]** Your project should be built on a shared GitHub repository with at least three branches and two merged Pull Requests.
+
+**[50pts]** At least three CSS animations (translate, rotate, opacity, scale, color, etc.).
+
+**Optional Elements (30%, 300pts total)**
+
+**[75pts]** A working HTML form with at least 5 **<input>**. You may decide how to display or interpret the entered information
+
+**[50pts]** Have a table (or repeating CSS Grid elements) that retrieves different data from the API based on factors or inputs from the user.
+
+**[50pts]** Meet standardized accessibility requirements, including font size, font families, colors.
+
+**[30pts/each]** Video background somewhere on the site (max. 2)
+
+**[30pts]** Include a CSS Grid, of at least 2x3 complexity or more.
+
+**[30pts]** Include a working Modal on the Website.
+
+**[30pts]** Have togglable color themes.
+
+**[25pts]** Implement the CSS framework **Bootstrap** to style your website (must be the majority of your styling)
+
+**[15pts]** Publish your website on GitHub Pages.
+
+**[5pts]** Include a favicon
+
+**[3pts/each]** Use of images (max. 20).
+
+**Additional Features (25%, 250pts total)**
+
+All additional features should be chosen as a team and reflect a concurrent amount of work that is similar to the scoring of the point values in the **optional elements** category. You should document each additional feature that your team includes in the final page submission PDF with clear evidence of the work completed, suggested points allotted, and description of what was done.
+
+Some features that I’ve thought of, that full and coherent integration would be equal to full 250 points would be:
 
 - Chart.js
-- UserAccountsign-insystem,loginforms
-- SearchFunctionalityforspecificentriesinthedata
-- EmbeddedMapofareasrelatedtoyourtheme,company,ordata
-- Parallaxeffect,parallaxscrolling
+- User Account sign-in system, login forms
+- Search Functionality for specific entries in the data
+- Embedded Map of areas related to your theme, company, or data
+- Parallax effect, parallax scrolling
 
-Youmanyaddasmanyadditionalfeaturesasyoulike.
+You many add as many additional features as you like.
 
-### AReminderofAIUsage
+**A Reminder of AI Usage**
 
-IwillalwaysencouragetheuseofAItohelpyouwithyourcoursework,but
-tobewiseandaccountableinitsuse.ForeachinstancethatAIisused,you
-mustdiscloseitinthecommentsofyourcodewithadatestampandthe
-promptyouprovidedtheAIwith.Ingeneral,youmayuseAItohelpyouwith
-thedesignofyourwebsite,butthecontentmustbeoriginalandcreatedby
-you.
+I will always encourage the use of AI to help you with your coursework, but to be wise and accountable in its use. For each instance that AI is used, you must disclose it in the comments of your code with a date stamp and the prompt you provided the AI with. In general, you may use AI to help you with the design of your website, but the content must be original and created by you.
 
+**Good luck and HAVE FUN with this project!**
 
-### GoodluckandHAVEFUNwiththisproject!
+Group Number: Group Name: Group Members:
 
-GroupNumber: GroupName:
-GroupMembers:
 Date:
-TopicofWebsite:
 
-### RequiredTasks,selectallthatwerecompleted:
+Topic of Website:
 
-# □ [100pts] Brandidentityanduniformityacrossthesite
+**Required Tasks, select all that were completed:**
 
-# □ [100pts] ContentisgeneratedviadataretrievedfromAPI.
+- **[100pts]** Brand identity and uniformity across the site
+- **[100pts]** Content is generated via data retrieved from API.
+- **[75pts]** Fully responsive layout.
+- **[75pts]** Group contribution
+- **[50pts]** GitHub repository with > 3 branches and >= 2 Pull Requests.
+- **[50pts]** At least three CSS animations
 
-# □ [75pts] Fullyresponsivelayout.
+**Optional Elements, select all that were completed:**
 
-# □ [75pts] Groupcontribution
+- **[75pts]** HTML form with at least 5 **<input>** and sufficient functionality
+- **[50pts]** Table or CSS Grid updates with different querying parameters
+- **[50pts]** Web accessibility requirements are accounted for.
+- **[30pts/each]** Video background (max. 2). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
+- **[30pts]** CSS Grid, of at least 2x3 complexity or more.
+- **[30pts]** Working Modal on the Website.
+- **[30pts]** Have togglable color themes.
+- **[25pts] Bootstrap** used to style the majority of your styling
+- **[15pts]** Project published on GitHub Pages.
+- **[5pts]** Include a favicon
+- **[3pts/each]** Use of images (max. 20). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
 
-# □ [50pts] GitHubrepositorywith> 3 branchesand>= 2 PullRequests.
+**Description of Additional Features and proposed allotment of points:**
 
-# □ [50pts] AtleastthreeCSSanimations
+Please describe the Additional Features you implemented and how many points you’re proposing to earn per feature. In your description, identify how the features were implemented with details of the level of complexity compared to the other tasks you completed. Once again, one Additional Feature that is in depth enough could be allotted the whole 250 points, but you can do as many Additional Features as you’d like.
 
-### OptionalElements, selectallthatwerecompleted:
+Feature #1: Description:
 
-# □ [75pts] HTMLformwithatleast 5 <input> andsufficientfunctionality
+(continue as needed)
 
-# □ [50pts] TableorCSSGridupdateswithdifferentqueryingparameters
+**In a few sentences, as a group, respond to these questions:**
 
-# □ [50pts] Webaccessibilityrequirementsareaccountedfor.
-
-# □ [30pts/each] Videobackground(max.2).EnterQuantity:___________
-
-# □ [30pts] CSSGrid,ofatleast2x3complexityormore.
-
-# □ [30pts] WorkingModalontheWebsite.
-
-# □ [30pts] Havetogglablecolorthemes.
-
-# □ [25pts]Bootstrap usedtostylethemajorityofyourstyling
-
-# □ [15pts] ProjectpublishedonGitHubPages.
-
-# □ [5pts] Includeafavicon
-
-# □ [3pts/each] Useofimages(max.20).EnterQuantity:___________
-
-
-### DescriptionofAdditionalFeaturesandproposedallotmentof
-
-### points:
-
-PleasedescribetheAdditionalFeaturesyouimplementedandhowmany
-pointsyou’reproposingtoearnperfeature.Inyourdescription,identifyhow
-thefeatureswereimplementedwithdetailsofthelevelofcomplexity
-comparedtotheothertasksyoucompleted.Onceagain,oneAdditional
-Featurethatisindepthenoughcouldbeallottedthewhole 250 points,but
-youcandoasmanyAdditionalFeaturesasyou’dlike.
-
-Feature#1:
-Description:
-
-(continueasneeded)
-
-**Inafewsentences,asagroup,respondtothesequestions:**
-Whatwentwellinthisproject,andwhatwaschallenging?Whatwouldyou
-havedonedifferently?Howwasyourexperienceworkinginagroup
-differentfromworkingbyyourselfforProject1?Whichdoyouprefer,
-workingaloneorworkingingroupsoncodingprojects?
-
-
+What went well in this project, and what was challenging? What would you have done differently? How was your experience working in a group different from working by yourself for Project 1? Which do you prefer, working alone or working in groups on coding projects?
