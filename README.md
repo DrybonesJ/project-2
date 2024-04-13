@@ -1,1 +1,261 @@
-# project-2
+## WELCOMETOPROJECT 2
+
+Thisisaguidedprojectthatwillcoverthemajorconceptsandtopicsthat
+havebeenincludedthroughouttheentiretyofthecourse.
+
+Thisprojectisdesignedtobecompletedingroupsof2-3,butyoumay
+choosetocompletethisasanindividual.Notonlywillcompletingthe
+projectasagroupdivideuptheworkintomoremanageablepiecesandwill
+provideavaluableworkplace-likedevelopmentexperience,doingthe
+projectasanindividualwillautomaticallyincura4.5%penaltytothe
+requiredtasksportionofyourprojectgrade.
+
+Iwantthisprojecttobeamemorablelandmarkinyourcodingexperience.
+Feelfreetoreachoutwithotherideasthatyoumayhavetouseforthis
+projectandI’dbehappytotakethemintoaccount.
+
+### ProjectDescription
+
+Youwillbecreatingacustomerfacingwebsiteforthecompanyofyour
+choice.Youcanchoosebetweenoneofthesethree“completelyreal”
+companies:
+
+1. MovieNationalCollective
+2. Sports‘nStuff
+3. FourtheMusic-Heads
+
+Adescriptionofeachofthesecompaniescanbefoundbelow.
+1.MovieNationalCollective:
+_History_ :Foundedbyagroupofcinephileswhobandedtogetherto
+createahavenformovieenthusiasts,MovieNationalCollectivestartedasa
+humblemovieclubinabasement,butquicklygrewintoathriving
+communityoffilmlovers.
+_Background_ :Withapassionforallthingscinema,MovieNational
+Collectiveaimstobringpeopletogethertocelebratetheartoffilmmaking,
+fromclassicmasterpiecestothelatestblockbusters,throughscreenings,
+discussions,andevents.
+_MissionStatement_ :Ourmissionistocultivateavibrantandinclusive
+communitywheremoviebuffscanconnect,sharetheirloveforfilm,and
+exploretheboundlessmagicofthesilverscreen.
+
+
+2.Sports‘nStuff:
+_History_ :Bornoutofaloveforbothcompetitionandcamaraderie,
+Sports‘nStuffwasfoundedbyagroupoffriendswhowantedtocreatea
+one-stopshopforsportsenthusiaststogeekoutoverstatsandcelebrate
+theirfavoriteteams.
+_Background_ :Whetheryou'readie-hardfanoracasualobserver,
+Sports‘nStuffisyourultimatedestinationforallthingssports-related,
+offeringup-to-datescores,news,andtriviatofuelyourpassionforthegame.
+_MissionStatement_ :Ourmissionistofosterasenseofcommunityand
+excitementamongsportsfansofeverystripe,providingaplatformwhere
+everyonecancometogethertocheer,debate,andrevelinthethrillof
+victory.
+
+3.FourtheMusic-Heads:
+_History_ :Conceivedbyagroupofmusicaficionadoswithapenchant
+forpuns,FourtheMusic-Headsbeganasasmallrecordstorewithbig
+dreamsofspreadingthejoyofmusictothemasses.
+_Background_ :Fromvinyltodigital,FourtheMusic-Headsisdedicated
+tocelebratingthediverseandever-evolvingworldofmusic,offeringcurated
+playlists,artistspotlights,andconcertrecommendationsformusicloversof
+alltastes.
+_MissionStatement_ :Ourmissionistoinspirealifelongloveaffairwith
+music,fosteringdiscovery,connection,andadeepappreciationforthe
+transformativepowerofsound.
+
+Foranycompanythatyouchoose,youshouldcreateamulti-pagecompany
+website.Forexample,themainpagemaybetitled“Home”withotherpages
+“News”and“Products”withsupplementaryinformationaboutthosepage
+topics.Youmaydecidehowmanypagesandwhatthecontentofthepages
+are,butyourprojectmustincludeatleasttwofullpages.Onesmartstrategy
+maybetosplituptheworkbetweenyourteammembersbypage.Some
+pageswillrequiremoreworkanddetailthanothers,sotrytosplitthework
+betweenteammatesevenly,regardlessofsetpageassignments.
+
+**_Note:_** youmaychoosetodoyourwebsiteonanothertopicbutyouarestill
+subjecttotherequirements.Meaning,ifyouchoosetobuildawebsitefor
+another“company”,youwillberequiredtofindandimplementanadequate
+
+
+APItogatherinformationonthatcompany'srelativetopic.Youmay _not_ use
+theWeatherDataAPIfromtheIn-ClassActivity.
+
+### APIInformation
+
+Aspartoftheinformationcollectivesigninggroupthatthethreecompanies
+MovieNationalCollective,Sports‘nStuff,FourtheMusic-Headsare
+contractedwith,muchofthelivedatathatthesecompaniesareretrieving
+comefromopenAPIs.Thedatawarehousingfirm, _KearlInformantsInc._ ,has
+allowedtheuseofthreepublicAPIsforthedevelopmentofthisproject.Your
+jobasadeveloperwillbetoretrieve
+
+YoushouldonlyretrievedatafromthecategoricalassociatedAPImodel
+(KearlInformantsInc.isstrappedforcashandiscurrentlyrunningfree-tier
+models,let’snotoverchargethem,haha),i.e.thesportsAPIisforSports’n
+Stuff,andsoon.Documentsthatoutlinethedatastructurethatwillreturn
+fromtheAPIscanbefoundhere:
+
+```
+SportsAPI MoviesAPI MusicAPI
+```
+### Grading
+
+Thegradingoftheprojectwillbedividedinto 3 distinctions,requiredtasks,
+optionalelements,andadditionalfeatures.Therequiredtaskswillaccount
+for45%,optionalelementswillmakeup30%,andadditionalfeatureswill
+fulfilltheremaining25%ofyourtotalgrade.SimilarlytoProject1,therecan
+beupto5%allotmentbetweengradingdistinctions,meaning,yourtotal
+pointsearnedtomakeupforothercategoricaldeficienciescanbeupto5%.
+Forexample,ifyouonlyreceive43%ontherequiredtasksand27%onthe
+additionalfeatures,youmaytack-onmoreadditionalfeatures(upto30%)to
+geta100%ontheprojectin-total.
+
+Theprojectwillbe“graded”toatotalof 1000 pointstobetterallotweightto
+tasksinspecificgradingdistinctions,butwillbescaledto 100 pointsin
+LearningSuite.
+
+Followingyourcompletionoftheproject,thegroupshouldfillouttheform
+atthebottomofthisdocumentthatdetailstheirdivisionofworkandpoints.
+ThePDFshouldbename“ _Group#-GroupName.pdf”_ andsubmittedtothe
+
+
+appropriateProject 2 assignmentonLearningSuite.Onlyonesubmissionis
+requiredpergroup.
+
+Inadditiontotheprojectsubmission,eachstudentisrequiredtofilloutthe
+PeerReviewsurvey.Thissurveywilltaketheexperiencesandopinions
+
+### RequiredTasks(45%,450ptstotal)
+
+**[100pts]** Yourwebsiteshowcasesabrandidentityanduniformity.Thiscan
+bedisplayedthroughacolorscheme,icons,fontfamiliesandstyling,and
+implementationofDesignPrinciples.
+**[100pts]** MuchofthecontentofthesiteisgeneratedviatheassociatedAPI
+foryourgroup'stopic.
+**[75pts]** Fullyresponsivelayout,usinganyresponsivetechniqueyouplease.
+**[75pts]** Yourcontributiontoyourgroup.(ifdoingtheprojectasanindividual
+youautomaticallyreceive40%(30pts)onthistask)
+**[50pts]** YourprojectshouldbebuiltonasharedGitHubrepositorywithat
+leastthreebranchesandtwomergedPullRequests.
+**[50pts]** AtleastthreeCSSanimations(translate,rotate,opacity,scale,color,
+etc.).
+
+### OptionalElements(30%,300ptstotal)
+
+**[75pts]** AworkingHTMLformwithatleast 5 **<input>** .Youmaydecidehowto
+displayorinterprettheenteredinformation
+**[50pts]** Haveatable(orrepeatingCSSGridelements)thatretrievesdifferent
+datafromtheAPIbasedonfactorsorinputsfromtheuser.
+**[50pts]** Meetstandardizedaccessibilityrequirements,includingfontsize,
+fontfamilies,colors.
+**[30pts/each]** Videobackgroundsomewhereonthesite(max.2)
+**[30pts]** IncludeaCSSGrid,ofatleast2x3complexityormore.
+**[30pts]** IncludeaworkingModalontheWebsite.
+**[30pts]** Havetogglablecolorthemes.
+**[25pts]** ImplementtheCSSframework **Bootstrap** tostyleyourwebsite(must
+bethemajorityofyourstyling)
+**[15pts]** PublishyourwebsiteonGitHubPages.
+**[5pts]** Includeafavicon
+**[3pts/each]** Useofimages(max.20).
+
+### AdditionalFeatures(25%,250ptstotal)
+
+
+Alladditionalfeaturesshouldbechosenasateamandreflectaconcurrent
+amountofworkthatissimilartothescoringofthepointvaluesinthe
+**optionalelements** category.Youshoulddocumenteachadditionalfeature
+thatyourteamincludesinthefinalpagesubmissionPDFwithclear
+evidenceoftheworkcompleted,suggestedpointsallotted,anddescription
+ofwhatwasdone.
+
+SomefeaturesthatI’vethoughtof,thatfullandcoherentintegrationwould
+beequaltofull 250 pointswouldbe:
+
+- Chart.js
+- UserAccountsign-insystem,loginforms
+- SearchFunctionalityforspecificentriesinthedata
+- EmbeddedMapofareasrelatedtoyourtheme,company,ordata
+- Parallaxeffect,parallaxscrolling
+
+Youmanyaddasmanyadditionalfeaturesasyoulike.
+
+### AReminderofAIUsage
+
+IwillalwaysencouragetheuseofAItohelpyouwithyourcoursework,but
+tobewiseandaccountableinitsuse.ForeachinstancethatAIisused,you
+mustdiscloseitinthecommentsofyourcodewithadatestampandthe
+promptyouprovidedtheAIwith.Ingeneral,youmayuseAItohelpyouwith
+thedesignofyourwebsite,butthecontentmustbeoriginalandcreatedby
+you.
+
+
+### GoodluckandHAVEFUNwiththisproject!
+
+GroupNumber: GroupName:
+GroupMembers:
+Date:
+TopicofWebsite:
+
+### RequiredTasks,selectallthatwerecompleted:
+
+# □ [100pts] Brandidentityanduniformityacrossthesite
+
+# □ [100pts] ContentisgeneratedviadataretrievedfromAPI.
+
+# □ [75pts] Fullyresponsivelayout.
+
+# □ [75pts] Groupcontribution
+
+# □ [50pts] GitHubrepositorywith> 3 branchesand>= 2 PullRequests.
+
+# □ [50pts] AtleastthreeCSSanimations
+
+### OptionalElements, selectallthatwerecompleted:
+
+# □ [75pts] HTMLformwithatleast 5 <input> andsufficientfunctionality
+
+# □ [50pts] TableorCSSGridupdateswithdifferentqueryingparameters
+
+# □ [50pts] Webaccessibilityrequirementsareaccountedfor.
+
+# □ [30pts/each] Videobackground(max.2).EnterQuantity:___________
+
+# □ [30pts] CSSGrid,ofatleast2x3complexityormore.
+
+# □ [30pts] WorkingModalontheWebsite.
+
+# □ [30pts] Havetogglablecolorthemes.
+
+# □ [25pts]Bootstrap usedtostylethemajorityofyourstyling
+
+# □ [15pts] ProjectpublishedonGitHubPages.
+
+# □ [5pts] Includeafavicon
+
+# □ [3pts/each] Useofimages(max.20).EnterQuantity:___________
+
+
+### DescriptionofAdditionalFeaturesandproposedallotmentof
+
+### points:
+
+PleasedescribetheAdditionalFeaturesyouimplementedandhowmany
+pointsyou’reproposingtoearnperfeature.Inyourdescription,identifyhow
+thefeatureswereimplementedwithdetailsofthelevelofcomplexity
+comparedtotheothertasksyoucompleted.Onceagain,oneAdditional
+Featurethatisindepthenoughcouldbeallottedthewhole 250 points,but
+youcandoasmanyAdditionalFeaturesasyou’dlike.
+
+Feature#1:
+Description:
+
+(continueasneeded)
+
+**Inafewsentences,asagroup,respondtothesequestions:**
+Whatwentwellinthisproject,andwhatwaschallenging?Whatwouldyou
+havedonedifferently?Howwasyourexperienceworkinginagroup
+differentfromworkingbyyourselfforProject1?Whichdoyouprefer,
+workingaloneorworkingingroupsoncodingprojects?
+
+
