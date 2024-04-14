@@ -26,42 +26,49 @@ const createHTMLFromFeedData = (data) => {
 
     // Iterate over each attribute array and create HTML elements
     for (let i = 0; i < titles.length; i++) {
-        const article = document.createElement('div');
-        article.classList.add('rss-div')
+        const divWrapper = document.createElement('div');
+        divWrapper.classList.add('rss-div');
 
+        const leftDiv = document.createElement('div');
+        leftDiv.classList.add('rss-div-left');
+        const rightDiv = document.createElement('div');
+        rightDiv.classList.add('rss-div-right');
+
+        const link = document.createElement('a');
+        link.href = links[i];
+        link.target = "_blank"
+        link.classList.add('rss-link')
+        divWrapper.appendChild(link);
+        
         const title = document.createElement('h2');
         title.textContent = titles[i];
         title.classList.add('rss-title')
-        article.appendChild(title);
+        rightDiv.appendChild(title);
 
         const description = document.createElement('p');
         description.textContent = descriptions[i];
         description.classList.add('rss-description')
-        article.appendChild(description);
+        rightDiv.appendChild(description);
 
         const author = document.createElement('p');
         author.textContent = authors[i];
         author.classList.add('rss-author')
-        article.appendChild(author);
-
-        const link = document.createElement('a');
-        link.textContent = 'Read more';
-        link.href = links[i];
-        link.classList.add('rss-link')
-        article.appendChild(link);
+        rightDiv.appendChild(author);
 
         const pubDate = document.createElement('p');
         pubDate.textContent = pubDates[i];
         pubDate.classList.add('rss-pubDate')
-        article.appendChild(pubDate);
+        rightDiv.appendChild(pubDate);
 
         const image = document.createElement('img');
         image.src = srcs[i];
         image.alt = `image thumbnail for ${titles[i]}`
         image.classList.add('rss-image')
-        article.appendChild(image);
+        leftDiv.appendChild(image);
 
-        feedContainer.appendChild(article);
+        link.appendChild(leftDiv);
+        link.appendChild(rightDiv);
+        feedContainer.appendChild(divWrapper);
     }
 };
 
