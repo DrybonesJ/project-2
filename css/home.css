@@ -1,7 +1,33 @@
+:root {
+    --blue: #1D428A;
+    --red: #C8102E;
+    --white: #fff;
+}
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.rss-button {
+    background-color: var(--blue); /* NBA red */
+    animation: rssButtonAnimation 3s infinite ease;
+    color: var(--white); /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    /*transition: background-color 0.3s ease;*/
+}
+.rss-button:hover {
+    /*background-color: var(--red); !* NBA blue *!*/
+}
+@keyframes rssButtonAnimation {
+    0% { background-color: var(--blue); }
+    50% { background-color: var(--red); }
+    100% { background-color: var(--blue); }
 }
 .rss-div {
     display: flex;

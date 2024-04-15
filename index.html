@@ -32,10 +32,17 @@
         </nav>
     </header>
     <main>
-        <h1>Content</h1>
+        <div class="home-content">
+            <h1>Content</h1>
+        </div>
 
-        <button id="btn">Click Me</button>
-        <div class="rss" id="rss-feed"></div>
+        <br><br>
+        
+        <div class="rss-news-container">
+            <button class="rss-button" id="rss-btn">Get Current NBA News</button>
+            <h1 id="rss-h1" style="display: none; text-align: center;">Around the League</h1>
+            <div class="rss" id="rss-feed"></div>
+        </div>
 
         <div style="flex-grow: 1"></div>
     </main>
@@ -54,9 +61,11 @@
     </footer>
 
     <script>
-        document.getElementById('btn').addEventListener('click', async () => {
+        document.getElementById('rss-btn').addEventListener('click', async () => {
             try {
                 const data = await getNBAFeedData();
+                document.getElementById("rss-btn").style.display = "none";
+                document.getElementById("rss-h1").style.display = "block";
                 // Do something with the data if needed
             } catch (error) {
                 console.error('Error fetching NBA feed:', error);
