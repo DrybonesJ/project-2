@@ -57,8 +57,15 @@ document.addEventListener("DOMContentLoaded", function () {
     hintButtons.forEach(function (button) {
         button.addEventListener('click', function () {
             const team = button.dataset.team;
-            alert(`Hint: ${team} logo`);
+            alert(`Hint: Played for ${team}. `);
             // You can add code to show the team's logo image here
         });
     });
+
+    window.onload = function () {
+        var video = document.getElementById("youtube-video");
+        video.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+    };
+
+
 });

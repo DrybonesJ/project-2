@@ -1,5 +1,5 @@
 body {
-    background-color: #0000ff;
+    background-color: #1D428A;
     /* blue */
     color: #ffffff;
     /* white */
@@ -27,7 +27,7 @@ button {
 }
 
 button {
-    background-color: #ff0000;
+    background-color: #C8102E;
     /* red */
     border: none;
     color: #ffffff;
@@ -47,4 +47,28 @@ button:hover {
 
 .correct-answer.hidden {
     display: none;
+}
+
+.video-box {
+    width: 560px;
+    /* Width of the video */
+    height: 315px;
+    /* Height of the video */
+    margin: 0 auto;
+    /* Center the box horizontally */
+    border: 2px solid #ccc;
+    /* Border around the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    overflow: hidden;
+    /* Hide any overflowing content */
+}
+
+.video-box iframe {
+    width: 100%;
+    /* Make the video fill the container */
+    height: 100%;
+    /* Make the video fill the container */
+    border: none;
+    /* Remove iframe border */
 }
