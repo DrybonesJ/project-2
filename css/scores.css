@@ -1,0 +1,54 @@
+:root {
+    --blue: #1D428A;
+    --red: #C8102E;
+    --white: #fff;
+}
+
+#games > h1 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 7fr 6fr;
+    grid-gap: 10px;
+    max-width: 1000px;
+    background-color: var(--red);
+    margin: auto;
+    padding: 20px;
+}
+
+.game {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    text-align: center;
+}
+
+.quarter {
+    width: 30px;
+}
+
+.team-name {
+    text-align: left;
+    display: flex;
+}
+
+.total {
+    font-weight: bold;
+    width: 40px;
+}
+
+.play-description {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin: 5px;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: bold;
+}
