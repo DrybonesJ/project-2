@@ -4,6 +4,13 @@
     --white: #fff;
 }
 
+#games > h1 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: 7fr 6fr;
@@ -15,10 +22,33 @@
 }
 
 .game {
-    display: grid;
-    grid-template-columns: 3fr repeat(5, 1fr);
-    grid-template-rows: 3fr;
     background-color: var(--white);
     border-radius: 10px;
     border: 2px solid var(--blue);
+    text-align: center;
+}
+
+.quarter {
+    width: 30px;
+}
+
+.team-name {
+    text-align: left;
+    display: flex;
+}
+
+.total {
+    font-weight: bold;
+    width: 40px;
+}
+
+.play-description {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin: 5px;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: bold;
 }
