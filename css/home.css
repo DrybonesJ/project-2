@@ -9,9 +9,9 @@ main {
     align-items: center;
 }
 .rss-button {
-    background-color: var(--blue); /* NBA red */
+    background-color: var(--blue);
     animation: rssButtonAnimation 3s infinite ease;
-    color: var(--white); /* White text */
+    color: var(--white);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -19,10 +19,6 @@ main {
     border-radius: 5px;
     cursor: pointer;
     text-transform: uppercase;
-    /*transition: background-color 0.3s ease;*/
-}
-.rss-button:hover {
-    /*background-color: var(--red); !* NBA blue *!*/
 }
 @keyframes rssButtonAnimation {
     0% { background-color: var(--blue); }
