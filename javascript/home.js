@@ -1,7 +1,7 @@
 // Custom RSS Feed from NBA news in the NBA section of ESPN
 
 const RSS_URL = 'https://www.espn.com/espn/rss/nba/news';
-// By default this feed only pulls in 10 unless adding the api and count parameters -> see https://rss2json.com/docs
+// By default, this feed only pulls in 10 unless adding the api and count parameters -> see https://rss2json.com/docs
 const RSSConverter = `https://api.rss2json.com/v1/api.json?rss_url=${RSS_URL}`
 
 // Get the feed data from the rss link
