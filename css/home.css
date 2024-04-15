@@ -1,3 +1,8 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .rss-div {
     display: flex;
     justify-content: center;
@@ -44,14 +49,31 @@
     color: black;
 }
 
-/*@media (max-width: 760px) {*/
-/*    .rss-link {*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*    }*/
-/*    .rss-image {*/
-/*        max-height: 20vh;*/
-/*        border-radius: 20px 20px 0 0;*/
-/*        right: 0;*/
-/*    }*/
-/*}*/
+@media (max-width: 851px) {
+    .rss-link {
+        display: flex;
+        flex-direction: column;
+        max-width: 450px;
+    }
+    .rss-div {
+        max-width: 450px;
+        display: flex;
+        justify-content: center;
+    }
+    .rss-image {
+        position: relative;
+        top: 0;
+        width: 100%;
+        /*max-height: 15vh;*/
+        border-radius: 20px 20px 0 0;
+        right: 0;
+    }
+    .rss-div-left {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        text-align: center;
+        max-height: 20vh;
+        overflow: hidden;
+    }
+}
