@@ -1,0 +1,74 @@
+body {
+    background-color: #1D428A;
+    /* blue */
+    color: #ffffff;
+    /* white */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+button {
+    background-color: #C8102E;
+    /* red */
+    border: none;
+    color: #ffffff;
+    /* white */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800000;
+    /* darker red */
+}
+
+.correct-answer {
+    color: #00ff00;
+    /* green */
+}
+
+.correct-answer.hidden {
+    display: none;
+}
+
+.video-box {
+    width: 560px;
+    /* Width of the video */
+    height: 315px;
+    /* Height of the video */
+    margin: 0 auto;
+    /* Center the box horizontally */
+    border: 2px solid #ccc;
+    /* Border around the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+    overflow: hidden;
+    /* Hide any overflowing content */
+}
+
+.video-box iframe {
+    width: 100%;
+    /* Make the video fill the container */
+    height: 100%;
+    /* Make the video fill the container */
+    border: none;
+    /* Remove iframe border */
+}
