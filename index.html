@@ -3,36 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>UnFreddetable - Home</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons8-basketball-50.png">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/07ed27e82e.js" crossorigin="anonymous"></script>
+    <script src="javascript/home.js"></script>
 </head>
 <body>
     <header>
         <h1 class="company-name">UnFreddetable Sports</h1>
         <nav>
             <ul>
-                <a href="#" class="current-page"><li>Home</li></a>
-                <a href="./scores.html"><li>Scores</li></a>
-                <a href="./trivia.html"><li>Trivia</li></a>
+                <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="./scores.html" class="current-page">
+                    <li>Scores</li>
+                </a>
+                <a href="./trivia.html">
+                    <li>Trivia</li>
+                </a>
             </ul>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="home-content">
+            <div class="left-content">
+                <h1>UnFreddetable Sports</h1>
+                <p>Welcome to UnFreddetable Sports! We love to celebrate basketball in any shape or form, but we do 
+                    NOT accept any hate on our home boi Jimmer Freddette. During his time at BYU, Fredette became 
+                    one of the most prolific scorers in college basketball history and is widely regarded as one of 
+                    the best players to ever represent the university.</p>
+
+                <p>Fredette's incredible scoring ability and dynamic playing style made him a standout player in 
+                    college basketball. He led the nation in scoring during his senior year, averaging an impressive 
+                    28.9 points per game. Fredette's offensive prowess, particularly his deadly shooting from long 
+                    range, earned him numerous accolades, including the prestigious Naismith College Player of the 
+                    Year Award and multiple All-American honors.</p>
+
+                <p>What set Fredette apart was his ability to take over games and deliver clutch performances when 
+                    his team needed it most. He displayed remarkable skill in creating his own shot and was a threat 
+                    to score from anywhere on the court. Fredette's electrifying playing style captivated fans and 
+                    made him a beloved figure not only at BYU but throughout the college basketball community.</p>
+
+                <p>In addition to his scoring ability, Fredette's leadership on and off the court was instrumental 
+                    in guiding BYU to success during his tenure. He helped lead the team to multiple NCAA Tournament 
+                    appearances and was instrumental in BYU's deep tournament runs.</p>
+
+                <p>Overall, Jimmer Fredette's impact on BYU basketball is undeniable, and what some might deem, 
+                    unfreddetable. His remarkable scoring ability, leadership, and memorable performances have 
+                    cemented his legacy as one of the greatest players in the history of Brigham Young University.</p>
+            </div>
+            
+            <div class="right-content">
+                <img id="jimmer-portrait" src="./assets/jimmer-portrait.jpeg" alt="tall cold photo of Jimmer">
+                <img id="jimmer-landscape" src="./assets/jimmer-landscape.png" alt="wide cold photo of Jimmer">
+            </div>
+        </div>
+
+        <br><br>
+        <div class="fun-stuff">
+            <h1 style="text-align: center;">Bored??</h1>
+            <div class="bored-button-section">
+                <a href="./scores.html"><button id="bored-button-1" class="bored-button">Check Scores</button></a>
+                <a href="./trivia.html"><button id="bored-button-2" class="bored-button">Try Our Trivia Game</button></a>
+            </div>
+        </div>
+        <br><br>
+        
+        <div class="rss-news-container">
+            <button class="rss-button" id="rss-btn">Get Current NBA News</button>
+            <h1 id="rss-h1" style="display: none; text-align: center;">Around the League</h1>
+            <div class="rss" id="rss-feed"></div>
+        </div>
+
+        <div style="flex-grow: 1"></div>
+    </main>
     <footer>
-        <p>© Copyright 2024 - Unfreddetable Sports</p>
-        <h3 class="company-name">UnFreddetable Sports</h3>
-        <div class="social-media">
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-x-twitter"></i>
+        <div class="footer-content">
+            <h3 class="company-name">UnFreddetable Sports</h3>
+            <div class="social-media">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </div></div>
+        <div class="footer-copyright">
+            <p>© Copyright 2024 - Unfreddetable Sports</p>
         </div>
     </footer>
+
+    <script>
+        document.getElementById('rss-btn').addEventListener('click', async () => {
+            try {
+                const data = await getNBAFeedData();
+                document.getElementById("rss-btn").style.display = "none";
+                document.getElementById("rss-h1").style.display = "block";
+                // Do something with the data if needed
+            } catch (error) {
+                console.error('Error fetching NBA feed:', error);
+            }
+        });
+    </script>
 </body>
 </html>
