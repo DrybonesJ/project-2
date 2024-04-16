@@ -8,38 +8,6 @@ fetch(
     });
 
 const scoresContainer = document.getElementById("scores-container");
-const teamsArr = [
-    "Atlanta Hawks",
-    "Boston Celtics",
-    "Brooklyn Nets",
-    "Charlotte Hornets",
-    "Chicago Bulls",
-    "Cleveland Cavaliers",
-    "Dallas Mavericks",
-    "Denver Nuggets",
-    "Detroit Pistons",
-    "Golden State Warriors",
-    "Houston Rockets",
-    "Indiana Pacers",
-    "LA Clippers",
-    "Los Angeles Lakers",
-    "Memphis Grizzlies",
-    "Miami Heat",
-    "Milwaukee BUcks",
-    "Minnesota Timberwolves",
-    "New Orleans Pelicans",
-    "New York Knicks",
-    "Oklahoma City Thunder",
-    "Orlando Magic",
-    "Philadelphia 76ers",
-    "Phoenix Suns",
-    "Portland Trail Blazers",
-    "Sacramento Kings",
-    "San Antonio Spurs",
-    "Toronto Raptors",
-    "Utah Jazz",
-    "Washington Wizards"
-]
 
 // Functions
 const generateRandomTime = () => {
@@ -48,9 +16,9 @@ const generateRandomTime = () => {
     const onesSecond = Math.floor(Math.random() * 10);
     return minute + ":" + tensSecond + onesSecond;
 }
-generateRandomTime();
 
-const selectTeam = () => {
+const selectTeam = (data) => {
+    const teamsArr = Object.keys(data);
     const randomNumber = Math.floor(Math.random() * 30);
     return teamsArr[randomNumber];
 }
@@ -68,8 +36,7 @@ const generateQuarterScores = (total) => {
     return [quarterOne, quarterTwo, quarterThree, quarterFour];
 }
 
-const renderScoreTable = (data) => {
-    
+const renderScoreTable = (data) => { 
     const actions = [
         "stole the ball",
         "got a rebound",
@@ -77,9 +44,9 @@ const renderScoreTable = (data) => {
         "made a free-throw",
         "lost the ball out of bounds"
     ]
-    
+
     for (let i = 0; i < 10; i++) {
-        const team = selectTeam();
+        const team = selectTeam(data);
 
         //Select Game
         const gameList = Object.keys(data[team]["last_five_games"]);
@@ -88,7 +55,9 @@ const renderScoreTable = (data) => {
 
         // Scores Box
         const awayTeam = game["away_team"]["team_name"];
+        const awayTeamAbbrev = game["away_team"]["team_name_abbreviation"];
         const homeTeam = game["home_team"]["team_name"];
+        const homeTeamAbbrev = game["home_team"]["team_name_abbreviation"];
         const homeTeamLogo = data[homeTeam]["logo_light"];
         const awayTeamLogo = data[awayTeam]["logo_light"];
         const awayTeamScore = game["away_team"]["score"];
@@ -114,7 +83,7 @@ const renderScoreTable = (data) => {
                 <th>T</th>
             </tr>
             <tr>
-                <td class="team-name"><img src="${awayTeamLogo}" width="20">${awayTeam}</td>
+                <td class="team-name"><img src="${awayTeamLogo}" width="20" height="20"> <span class="abbrev">${awayTeamAbbrev}</span><span class="non-abbrev">${awayTeam}</span></td>
                 <td class="quarter">${awayTeamQuarterScores[0]}</td>
                 <td class="quarter">${awayTeamQuarterScores[1]}</td>
                 <td class="quarter">${awayTeamQuarterScores[2]}</td>
@@ -122,7 +91,7 @@ const renderScoreTable = (data) => {
                 <td class="total">${awayTeamScore}</td>
             </tr>
             <tr>
-                <td class="team-name"><img src="${homeTeamLogo}" width="20">${homeTeam}</td>
+                <td class="team-name"><img src="${homeTeamLogo}" width="20" height="20"> <span class="abbrev">${homeTeamAbbrev}</span><span class="non-abbrev">${homeTeam}</span></td>
                 <td class="quarter">${homeTeamQuarterScores[0]}</td>
                 <td class="quarter">${homeTeamQuarterScores[1]}</td>
                 <td class="quarter">${homeTeamQuarterScores[2]}</td>
@@ -130,11 +99,12 @@ const renderScoreTable = (data) => {
                 <td class="total">${homeTeamScore}</td>
             </tr>
         </table>
-        <div class="game">
+        <div class="game most-recent-play">
             <h3>Most Recent Play</h3>
             <div class="play-description">
                 <div class="time">${timeStamp}</div>
                 <div>${player} ${actions[actionNumber]}</div>
+                <i id="basketball" class="fa-solid fa-basketball" style="color: #ae4b0a;"></i>
             </div>
         </div>
     `
