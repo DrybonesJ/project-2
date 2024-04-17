@@ -1,0 +1,103 @@
+:root {
+    --blue: #1D428A;
+    --red: #C8102E;
+    --white: #fff;
+}
+
+#games > h1 {
+    text-align: center;
+    color: black;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 7fr 6fr;
+    grid-gap: 10px;
+    max-width: 1000px;
+    min-width: 400px;
+    background-color: var(--red);
+    margin: auto;
+    padding: 20px;
+}
+
+.game {
+    background-color: var(--white);
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    text-align: center;
+}
+
+.quarter {
+    width: 30px;
+}
+
+.team-name {
+    text-align: left;
+    display: flex;
+}
+
+.team-name > img {
+    min-width: 20px;
+}
+
+.abbrev {
+    display: none;
+}
+
+.total {
+    font-weight: bold;
+    width: 40px;
+}
+
+.play-description {
+    display: grid;
+    grid-template-columns: 55px 1fr 32px;
+    align-items: center;
+    margin: 5px;
+    text-align: left;
+}
+
+.play-description > div {
+    padding: 2.5px;
+}
+
+.time {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#basketball {
+    font-size: 28px;
+    display: none;
+}
+
+.game:hover #basketball {
+    animation: spinBasketball 4s linear 0s infinite;
+    display: block;
+}
+
+@keyframes spinBasketball {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media(max-width: 768px) {
+    .abbrev {
+        display: block;
+    }
+
+    .non-abbrev {
+        display: none;
+    }
+}
+
+@media(max-width: 400px) {
+    .most-recent-play {
+        display: none;
+    }
+}
