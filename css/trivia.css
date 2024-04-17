@@ -27,28 +27,42 @@ button {
 }
 
 button {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
     background-color: #C8102E;
     /* red */
     border: none;
     color: #ffffff;
     /* white */
     cursor: pointer;
+    transition: all 0.3s ease;
+    /* Add transition for smooth animation */
+    transform-origin: center;
+    /* Set the transform origin to the center */
 }
 
+/* Add hover animation */
 button:hover {
     background-color: #800000;
     /* darker red */
+    font-weight: bold;
+    /* Make text bold on hover */
+    color: #fff;
+    /* Change text color on hover */
+    transform: scale(1.1);
+    /* Scale the button up by 10% on hover */
 }
 
-.correct-answer {
-    color: #00ff00;
-    /* green */
+/* Add active state animation */
+button:active {
+    background-color: #5a0000;
+    /* darker shade when clicked */
+    transform: scale(0.9);
+    /* Scale the button down by 10% when clicked */
 }
 
-.correct-answer.hidden {
-    display: none;
-}
-
+/* Add transition for smooth animation */
 .video-box {
     width: 560px;
     /* Width of the video */
@@ -62,13 +76,64 @@ button:hover {
     /* Shadow effect */
     overflow: hidden;
     /* Hide any overflowing content */
+    transition: all 0.3s ease;
+    /* Add transition for smooth animation */
+    transform-origin: center;
+    /* Set the transform origin to the center */
 }
 
-.video-box iframe {
+/* Add hover animation */
+.video-box:hover {
+    transform: scale(1.1) rotate(10deg);
+    /* Scale the box up by 10% and tilt 10 degrees on hover */
+}
+
+/* Add active state animation */
+.video-box:active {
+    transform: scale(0.9) rotate(-10deg);
+    /* Scale the box down by 10% and tilt -10 degrees when clicked */
+}
+
+.correct-answer {
+    color: #00ff00;
+    /* green */
+}
+
+.correct-answer.hidden {
+    display: none;
+}
+
+.video-box {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.video-box video {
     width: 100%;
-    /* Make the video fill the container */
     height: 100%;
-    /* Make the video fill the container */
     border: none;
-    /* Remove iframe border */
+}
+
+.correct-answer {
+    color: #00ff00;
+    /* green */
+}
+
+.correct-answer.hidden {
+    display: none;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
 }
