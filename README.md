@@ -126,26 +126,26 @@ Topic of Website:
 
 **Required Tasks, select all that were completed:**
 
-- **[100pts]** Brand identity and uniformity across the site
-- **[100pts]** Content is generated via data retrieved from API.
-- **[75pts]** Fully responsive layout.
-- **[75pts]** Group contribution
-- **[50pts]** GitHub repository with > 3 branches and >= 2 Pull Requests.
-- **[50pts]** At least three CSS animations
+- [x] **[100pts]** Brand identity and uniformity across the site
+- [x] **[100pts]** Content is generated via data retrieved from API.
+- [x] **[75pts]** Fully responsive layout.
+- [x] **[75pts]** Group contribution
+- [x] **[50pts]** GitHub repository with > 3 branches and >= 2 Pull Requests.
+- [ ] **[50pts]** At least three CSS animations
 
 **Optional Elements, select all that were completed:**
 
-- **[75pts]** HTML form with at least 5 **<input>** and sufficient functionality
-- **[50pts]** Table or CSS Grid updates with different querying parameters
-- **[50pts]** Web accessibility requirements are accounted for.
-- **[30pts/each]** Video background (max. 2). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
-- **[30pts]** CSS Grid, of at least 2x3 complexity or more.
-- **[30pts]** Working Modal on the Website.
-- **[30pts]** Have togglable color themes.
-- **[25pts] Bootstrap** used to style the majority of your styling
-- **[15pts]** Project published on GitHub Pages.
-- **[5pts]** Include a favicon
-- **[3pts/each]** Use of images (max. 20). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
+- [x] **[75pts]** HTML form with at least 5 **<input>** and sufficient functionality
+- [x] **[50pts]** Table or CSS Grid updates with different querying parameters
+- [x] **[50pts]** Web accessibility requirements are accounted for.
+- [x] **[30pts/each]** Video background (max. 2). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
+- [x] **[30pts]** CSS Grid, of at least 2x3 complexity or more.
+- [ ] **[30pts]** Working Modal on the Website.
+- [ ] **[30pts]** Have togglable color themes.
+- [ ] **[25pts] Bootstrap** used to style the majority of your styling
+- [ ] **[15pts]** Project published on GitHub Pages.
+- [x] **[5pts]** Include a favicon
+- [x] **[3pts/each]** Use of images (max. 20). Enter Quantity: \_\_\_\_\_\_\_\_\_\_\_
 
 **Description of Additional Features and proposed allotment of points:**
 
