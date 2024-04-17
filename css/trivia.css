@@ -82,13 +82,11 @@ button:active {
     /* Set the transform origin to the center */
 }
 
-/* Add hover animation */
 .video-box:hover {
     transform: scale(1.1) rotate(10deg);
     /* Scale the box up by 10% and tilt 10 degrees on hover */
 }
 
-/* Add active state animation */
 .video-box:active {
     transform: scale(0.9) rotate(-10deg);
     /* Scale the box down by 10% and tilt -10 degrees when clicked */
@@ -103,14 +101,17 @@ button:active {
     display: none;
 }
 
+
 .video-box {
+
     width: 560px;
     height: 315px;
     margin: 0 auto;
     border: 2px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-}
+
+} 
 
 .video-box video {
     width: 100%;
@@ -125,7 +126,7 @@ button:active {
 
 .correct-answer.hidden {
     display: none;
-}
+
 
 #background-video {
     position: fixed;
@@ -136,4 +137,5 @@ button:active {
     width: auto;
     height: auto;
     z-index: -1;
+
 }
