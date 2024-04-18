@@ -20,8 +20,9 @@ header {
     background-color: var(--blue);
     color: var(--white);
     width: 100%;
-    height: var(--nav-height);
+    min-height: var(--nav-height);
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -60,6 +61,26 @@ nav ul a li {
     height: var(--nav-height);
     font-size: 20px;
     padding: 0 20px;
+}
+
+@media (max-width: 700px){
+    body {
+        min-width: 400px;
+        text-wrap: none;
+    }
+    header {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1em;
+        padding-bottom: 0;
+    }
+    .company-name {
+        margin-left: 0;
+    }
+    nav ul{
+        padding-left: 0;
+    }
 }
 
 .current-page {
